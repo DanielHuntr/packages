@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "danielhuntr/forms-plus": [
+            {
+                "name": "danielhuntr/forms-plus",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:DanielHuntr/FormsPlus.git",
+                    "reference": "89239695e0f8be7f7f7289ceb6f97c24ea6c07cb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/DanielHuntr/FormsPlus/zipball/89239695e0f8be7f7f7289ceb6f97c24ea6c07cb",
+                    "reference": "89239695e0f8be7f7f7289ceb6f97c24ea6c07cb",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.3",
+                    "statamic/cms": "^6.0"
+                },
+                "time": "2026-06-24T17:29:26+00:00",
+                "default-branch": true,
+                "type": "statamic-addon",
+                "extra": {
+                    "statamic": {
+                        "name": "Forms Plus",
+                        "slug": "forms-plus",
+                        "description": "A drag-and-drop form builder for Statamic"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "App\\FormsPlus\\ServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "App\\FormsPlus\\": "src/"
+                    }
+                },
+                "description": "A drag-and-drop form builder for Statamic",
+                "support": {
+                    "source": "https://github.com/DanielHuntr/FormsPlus/tree/main",
+                    "issues": "https://github.com/DanielHuntr/FormsPlus/issues"
+                }
+            }
+        ]
+    }
+}

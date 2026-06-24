@@ -1,0 +1,12 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$50c6f29fa1aa44446e54f3e13759b4eb884a6229.json": {
+            "sha1": "50c6f29fa1aa44446e54f3e13759b4eb884a6229"
+        }
+    },
+    "metadata-url": "/packages/p2/%package%.json",
+    "available-packages": [
+        "danielhuntr/forms-plus"
+    ]
+}
