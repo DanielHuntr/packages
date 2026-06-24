@@ -1,0 +1,11 @@
+{
+    "name": "DanielHuntr Packages",
+    "homepage": "https://danielhuntr.github.io/packages",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/DanielHuntr/FormsPlus"
+        }
+    ],
+    "require-all": true
+}
